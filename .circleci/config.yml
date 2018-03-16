@@ -19,4 +19,4 @@ jobs:
             - node_modules
 
       - run: npm test
-      - run: npm run danger
+      - run: npx danger ci
