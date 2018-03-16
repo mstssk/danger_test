@@ -1,0 +1,22 @@
+{
+  "name": "danger_test",
+  "version": "0.0.0",
+  "description": "testing for http://danger.systems/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstssk/danger_test.git"
+  },
+  "author": "mstssk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mstssk/danger_test/issues"
+  },
+  "homepage": "https://github.com/mstssk/danger_test#readme",
+  "devDependencies": {
+    "danger": "^3.2.0"
+  }
+}
