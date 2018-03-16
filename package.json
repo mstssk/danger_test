@@ -4,6 +4,7 @@
   "description": "testing for http://danger.systems/",
   "main": "index.js",
   "scripts": {
+    "danger": "danger ci",
     "test": "echo \"Nothing to do.\""
   },
   "repository": {
