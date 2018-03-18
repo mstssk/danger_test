@@ -5,7 +5,6 @@ jobs:
       - image: circleci/node:8
     working_directory: ~/repo
     steps:
-      - run: env
       - run: node -v && npm -v
 
       - checkout
@@ -20,4 +19,4 @@ jobs:
             - node_modules
 
       - run: npm test
-      - run: npx danger ci
+      - run: npx danger-ci
