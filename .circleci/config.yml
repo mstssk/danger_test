@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:8
     working_directory: ~/repo
     steps:
+      - run: env
       - run: node -v && npm -v
 
       - checkout
